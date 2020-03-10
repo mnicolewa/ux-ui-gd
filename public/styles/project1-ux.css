@@ -1,0 +1,229 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  width: 15%;
+  padding: .5vw 0vw .5vw 6.5vw;
+  background-color: #323640;
+  color: white;
+  margin-bottom: 3vw;
+  margin-top: 7.5vw;
+  font-size: 2vw;
+}
+
+.navbar {
+  color: black;
+  font-size: 1.5vw;
+  width: 100%;
+  height: 6vw;
+  top: 0;
+  right: 0;
+  padding-top: 1vw;
+  padding-right: 2.8vw;
+  margin: auto;
+  position: fixed;
+  z-index: 5;
+}
+
+.navbar .logo {
+  background-image: url("../assets/Logo_Transparent.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 4.5vw;
+  margin-left: 4.5vw;
+  margin-bottom: 0;
+  position: fixed;
+  width: 5vw;
+}
+
+.navbar p {
+  font-size: 1.5;
+  padding-left: 10.5vw;
+  position: fixed;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar ul li {
+  padding-left: 2.8vw;
+}
+
+.navbar ul .nav {
+  color: black;
+}
+
+.navbar ul .nav:hover {
+  color: #4ac2c8;
+  -webkit-transition: width 0.35s ease 0s;
+  transition: width 0.35s ease 0s;
+}
+
+.landing {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.landing h1 {
+  position: absolute;
+  z-index: 1;
+  font-size: 4vw;
+  width: 35vw;
+  left: 7%;
+  top: 16%;
+  letter-spacing: 1.8vw;
+  background: white;
+  padding-left: 3vw;
+  color: #323640;
+}
+
+.landing .color-block {
+  height: 100%;
+  background-color: #323640;
+  width: 35%;
+  position: relative;
+}
+
+.landing .color-block .intro-textbox {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  height: 32vh;
+  font-weight: 400;
+  width: 60%;
+  padding-bottom: 2vw;
+  color: white;
+}
+
+.landing .color-block .intro-textbox h4 {
+  margin: 0;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+.landing .color-block .intro-textbox p {
+  font-size: 1vw;
+  margin-bottom: 2.2vw;
+}
+
+.landing .intro-image {
+  background-image: url("../assets/P9_ Hi-Fidelity Mockup.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65%;
+}
+
+.button-box {
+  width: 100%;
+  -webkit-transform: translate(63%, -28vh);
+          transform: translate(63%, -28vh);
+}
+
+.button-box .btn {
+  border: 0.1vw solid black;
+  border-radius: 3px;
+  font-size: 1.2vw;
+  font-weight: 400;
+  height: 2.5vw;
+  width: 8.5vw;
+  color: black;
+  background-color: white;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-box .btn:hover {
+  background-color: white;
+  -webkit-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.15), 0 17px 50px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.15), 0 17px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+section {
+  height: 40vw;
+  position: relative;
+}
+
+section .section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 78%;
+  margin: auto;
+  background-color: white;
+  padding: 4vw;
+  font-size: 1.2vw;
+}
+
+.overview-textbox {
+  width: 45%;
+}
+
+.overview-textbox h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.overview-textbox p {
+  padding-bottom: 3vw;
+}
+
+.gallery {
+  position: relative;
+  width: 35%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.gallery .gallery-image {
+  width: 12vw;
+  height: 12vw;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 85%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery .hat {
+  background-image: url("/assets/instant messaginbg.png");
+}
+
+.gallery .sweatshirt {
+  background-image: url("../assets/HCDE logo black sweatshirt.png");
+}
+
+.gallery .shirt {
+  background-image: url("../assets/HCDE logo dark heather t-shirt version 2.png");
+}
+
+.gallery .sweats {
+  background-image: url("../assets/HCDE logo black sweats version 2.png");
+  background-size: 40%;
+}
+/*# sourceMappingURL=project1-ux.css.map */

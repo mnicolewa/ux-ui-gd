@@ -1,0 +1,228 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  width: 15%;
+  padding: .5vw 0vw .5vw 6.5vw;
+  background-color: #5c2c6c;
+  color: white;
+  margin-bottom: 3vw;
+  margin-top: 7.5vw;
+  font-size: 2vw;
+}
+
+.navbar {
+  color: black;
+  font-size: 1.5vw;
+  width: 100%;
+  height: 6vw;
+  top: 0;
+  right: 0;
+  padding-top: 1vw;
+  padding-right: 2.8vw;
+  margin: auto;
+  position: fixed;
+  z-index: 5;
+}
+
+.navbar .logo {
+  background-image: url("../assets/Logo_Transparent.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 4.5vw;
+  margin-left: 4.5vw;
+  margin-bottom: 0;
+  position: fixed;
+  width: 5vw;
+}
+
+.navbar p {
+  font-size: 1.5;
+  padding-left: 10.5vw;
+  position: fixed;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar ul li {
+  padding-left: 2.8vw;
+}
+
+.navbar ul .nav {
+  color: black;
+}
+
+.navbar ul .nav:hover {
+  color: #4ac2c8;
+  -webkit-transition: width 0.35s ease 0s;
+  transition: width 0.35s ease 0s;
+}
+
+.brandbook-box {
+  width: 80%;
+  height: 45vw;
+  margin: auto;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.landing {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 3vw;
+}
+
+.landing h1 {
+  position: absolute;
+  z-index: 1;
+  font-size: 4vw;
+  width: 35vw;
+  left: 7%;
+  top: 16%;
+  letter-spacing: 1.8vw;
+  background: white;
+  padding-left: 3vw;
+  color: #5c2c6c;
+}
+
+.landing .color-block {
+  height: 100%;
+  background-color: #5c2c6c;
+  width: 35%;
+  position: relative;
+}
+
+.landing .color-block .intro-textbox {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  height: 32vh;
+  font-weight: 400;
+  width: 60%;
+  padding-bottom: 2vw;
+  color: white;
+}
+
+.landing .color-block .intro-textbox h4 {
+  margin: 0;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+.landing .color-block .intro-textbox p {
+  font-size: 1vw;
+  margin-bottom: 2.2vw;
+}
+
+.landing .intro-image {
+  background-image: url("../assets/brand book-17.png");
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65%;
+}
+
+section {
+  height: 45vw;
+  position: relative;
+}
+
+section .section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 78%;
+  margin: auto;
+  background-color: white;
+  padding: 3vw;
+  font-size: 1.2vw;
+}
+
+.overview {
+  height: 70vw;
+}
+
+.overview-textbox {
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.overview-textbox h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.overview-textbox p {
+  padding-bottom: 3vw;
+}
+
+.overview-textbox .concept-text {
+  width: 45%;
+}
+
+.gallery {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.gallery .gallery-image {
+  width: 30vw;
+  height: 22vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: .5vw;
+}
+
+.gallery .brand-guide {
+  background-image: url("../assets/brand book-01.png");
+  background-size: 100%;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: none;
+  width: 100%;
+  font-size: 1vw;
+  z-index: -1;
+  margin-top: 1vw;
+}
+/*# sourceMappingURL=project2-gd.css.map */

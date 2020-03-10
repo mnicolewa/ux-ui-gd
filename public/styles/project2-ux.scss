@@ -1,0 +1,190 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div {
+    // border: black solid thin;
+}
+
+h2 {
+    width: 15%;
+    // padding-left: 8.2vw;
+    padding: .5vw 0vw .5vw 6.5vw;
+    // background-color: #FFD5E3;
+    background-color: #E27272;
+    color: white;
+    margin-bottom: 3vw;
+    margin-top: 7.5vw;
+    font-size: 2vw;
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar{
+    color: black;
+    font-size: 1.5vw;
+    width: 100%;
+    height: 6vw;
+    top:0;
+    right: 0;
+    padding-top: 1vw;;
+    padding-right: 2.8vw;
+    margin: auto;
+    position: fixed;
+    // background: rgb(255, 255, 255);
+    z-index: 5;
+
+    .logo {
+        background-image: url("../assets/Logo_Transparent.png");
+        // background-image: url("../assets/Personal\ Logo-13.png");
+        // background-image: url("../assets/Personal\ Logo\ blue\ transparent-16.png");
+
+
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 4.5vw;
+        margin-left: 4.5vw;
+        margin-bottom: 0;
+        position: fixed;
+        width: 5vw;
+    }
+    p {
+        font-size: 1.5;
+        padding-left: 10.5vw;
+        position: fixed;
+
+    }
+    ul {
+        display: flex;
+        float: right;
+        list-style-type: none;
+        text-decoration: none;
+
+        
+        li {
+            padding-left: 2.8vw;
+            
+
+        }
+        .nav {
+            color: black;
+        }
+        .nav:hover {
+            color: #4ac2c8;
+        
+            transition: width 0.35s ease 0s;
+        }
+    }
+
+}
+.landing {
+    // height: 87.5vh;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3vw;
+    h1 {
+        position: absolute;
+        z-index: 1;
+        font-size:4vw;
+        width: 35vw;
+        left: 7%;
+        top: 16%;
+        letter-spacing: 1.8vw;
+        background: white;
+        padding-left: 3vw;
+        color: #E27272;
+
+    }
+    .color-block {
+        height: 100%;
+        // background-color: #FFD5E3;
+        background-color: #E27272;
+        width: 35%;
+        position: relative;
+        .intro-textbox {
+            position: absolute;
+            bottom: 0;
+            left: 20%;
+            height: 32vh;
+            font-weight: 400;
+            width: 60%;
+            padding-bottom: 2vw;
+            color: white;
+            h4 {
+                // color: #1079bb; lyft
+                margin: 0;
+                font-size: 1.2vw;
+                font-weight: 600;
+            }
+            
+            p {
+                font-size: 1vw;
+                margin-bottom: 2.2vw;
+            }
+        }
+    }
+    .intro-image {
+        background-image: url("../assets/essence\ logo.PNG");
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 65%;
+    }
+}
+
+.button-box {
+    width: 100%;
+    transform: translate(63%, -28vh);
+    .btn {
+    border: .1vw solid rgb(0, 0, 0);
+    border-radius: 3px;
+    font-size: 1.2vw;
+    font-weight: 400;
+    height: 2.5vw;
+    width: 8.5vw;
+    color: black;
+    background-color: white; 
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+    .btn:hover {
+        background-color: white;
+        box-shadow: 0 8px 12px 0 rgba(0,0,0,0.15), 0 17px 50px 0 rgba(0,0,0,0.10)
+    }
+}
+
+
+
+section {
+    // border: solid black thin;
+    // background: #FFD5E3;
+    // height: 100vh;
+    height: 70vw;
+    position: relative;
+    // padding-bottom: 6vh;
+    .section-content {
+        display: flex;
+        justify-content: space-between;
+        width: 78%;
+        // height: 50vh;
+        margin: auto;
+        background-color: white;
+        padding: 4vw;
+        font-size: 1.2vw;
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+.overview-textbox {
+    h4 {
+        margin: 0;
+        padding: 0;
+    }
+    width: 45%;
+    p {
+        padding-bottom: 3vw;
+    }
+}

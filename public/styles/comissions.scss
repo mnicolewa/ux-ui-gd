@@ -1,0 +1,232 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+h2 {
+    width: 15%;
+    // padding-left: 8.2vw;
+    padding: .5vw 0vw .5vw 6.5vw;
+    // background-color: #FFD5E3;
+    background-color: black;
+    color: white;
+    margin-bottom: 3vw;
+    margin-top: 7.5vw;
+    font-size: 2vw;
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar{
+    color: black;
+    font-size: 1.5vw;
+    width: 100%;
+    height: 6vw;
+    top:0;
+    right: 0;
+    padding-top: 1vw;;
+    padding-right: 2.8vw;
+    margin: auto;
+    position: fixed;
+    // background: rgb(255, 255, 255);
+    z-index: 5;
+
+    .logo {
+        background-image: url("../assets/Logo_Transparent.png");
+        // background-image: url("../assets/Personal\ Logo-13.png");
+        // background-image: url("../assets/Personal\ Logo\ blue\ transparent-16.png");
+
+
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 4.5vw;
+        margin-left: 4.5vw;
+        margin-bottom: 0;
+        position: fixed;
+        width: 5vw;
+    }
+    p {
+        font-size: 1.5;
+        padding-left: 10.5vw;
+        position: fixed;
+
+    }
+    ul {
+        display: flex;
+        float: right;
+        list-style-type: none;
+        text-decoration: none;
+
+        
+        li {
+            padding-left: 2.8vw;
+            
+
+        }
+        .nav {
+            color: black;
+        }
+        .nav:hover {
+            color: #4ac2c8;
+        
+            transition: width 0.35s ease 0s;
+        }
+    }
+
+}
+
+
+.landing {
+    // height: 87.5vh;
+    height: 100vh;
+    display: flex;
+    padding-bottom: 3vw;
+    h1 {
+        position: absolute;
+        z-index: 1;
+        font-size:3vw;
+        width: 35vw;
+        left: 7%;
+        top: 16%;
+        letter-spacing: 1.8vw;
+        background: white;
+        padding-left: 3vw;
+        color: BLACK;
+
+    }
+    .color-block {
+        height: 100%;
+        // background-color: #FFD5E3;
+        background-color: black;
+        width: 35%;
+        position: relative;
+        .intro-textbox {
+            position: absolute;
+            bottom: 0;
+            left: 20%;
+            height: 32vh;
+            font-weight: 400;
+            width: 60%;
+            padding-bottom: 2vw;
+            color: white;
+            h4 {
+                // color: #1079bb; lyft
+                margin: 0;
+                font-size: 1.2vw;
+                font-weight: 600;
+            }
+            
+            p {
+                font-size: 1vw;
+                margin-bottom: 2.2vw;
+            }
+        }
+    }
+    .intro-image {
+        background-image: url("../assets/benson-\ drip\ portrait-01.png");
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 65%;
+    }
+}
+
+section {
+    // border: solid black thin;
+    // background: #FFD5E3;
+    height: 70vh;
+    // height: 70vw;
+    position: relative;
+    // padding-bottom: 6vh;
+    .section-content {
+        display: flex;
+        justify-content: space-between;
+        width: 78%;
+        // height: 50vh;
+        margin: auto;
+        background-color: white;
+        padding: 4vw;
+        font-size: 1.2vw;
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+.overview-textbox {
+    h4 {
+        margin: 0;
+        padding: 0;
+    }
+    width: 45%;
+    p {
+        padding-bottom: 3vw;
+    }
+}
+.gallery {
+    position: relative;
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .gallery-image {
+        width: 12vw;
+        height: 12vw; 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: .5vw;
+    }
+    .ben {
+        background-image: url("../assets/benson-\ drip\ portrait-04.png");
+    }
+    .ben2 {
+        background-image: url("../assets/benson-\ drip\ portrait-05.png");
+    }
+    .ben3 {
+        background-image: url("../assets/benson-\ drip\ portrait-02.png");
+    }
+    .ben4 {
+        background-image: url("../assets/benson-\ drip\ portrait-03.png");
+    }
+
+    .earnest {
+        background-image: url("../assets/Earnest\ Washington_\ Boondocks-01.png");
+    }
+    .earnest2 {
+        background-image: url("../assets/Earnest\ Washington\ v2.png");
+    }
+    .earnest3 {
+        background-image: url("../assets/boondocks\ logo.jpg");
+        background-size: 90%;
+    }
+    .earnest4 {
+        background-image: url("../assets/boondocks\ people.jpg");
+
+    }
+
+    .aaron {
+        background-image: url("../assets/Aaron\ -\ SU-Gold1.png");
+    }
+    .aaron2 {
+        background-image: url("../assets/Aaron\ -\ SU-Silver1.png");
+    }
+    .aaron3 {
+        background-image: url("../assets/steven\ universe\ logo.jpg");
+        background-size: 100%;
+
+    }
+    .aaron4 {
+        background-image: url("../assets/steven\ universe\ people.png");
+    }
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: none;
+    width: 100%;
+    font-size: 1vw;
+    margin-top: 1vw;
+    // padding-bottom: 2.3vw;
+}

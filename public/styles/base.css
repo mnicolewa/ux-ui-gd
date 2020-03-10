@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600&display=swap');
+
+html {
+  background-color: white;
+
+}
+
+body {
+  color: black;
+  font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+.back-box {
+  font-size: 1.8vw;
+  height: 4.5vw;
+  margin-bottom: 0;
+  position: fixed;
+  float: right;
+  width: 95vw;
+  text-align: right;
+  padding: 2vw; 
+  color: black;
+  z-index: 3;
+
+}   
+#main{
+  height: 100%;
+  margin: auto;
+  width: 80%;
+}
+
+#current-page {
+  color: #4ac2c8;
+  /* color: #065091; */
+  /* color: #364476; */
+}
